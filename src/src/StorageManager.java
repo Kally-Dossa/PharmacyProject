@@ -53,4 +53,22 @@ public class StorageManager {
 
         return result;
     }
+
+    public Medicine getMedicineByCode(String code) {
+        for (Medicine medicine : medicines) {
+            if (medicine.getCode().equals(code)) {
+                return medicine;
+            }
+        }
+        return null;
+    }
+
+    public boolean isMedicineCodeExists(String code) {
+        for (Medicine medicine : medicines) {
+            if (medicine.getCode().equals(code)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
