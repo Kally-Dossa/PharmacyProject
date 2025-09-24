@@ -12,13 +12,13 @@ cd PharmacyProject
 
 **2. Open in IntelliJ IDEA**
 
-Open IntelliJ IDEA → File → Open → select the `PharmacyProject` folder.
+- Open IntelliJ IDEA → File → Open → select the `PharmacyProject` folder.
 
-Set the Project SDK to your installed JDK (Java 17+ recommended).
+- Set the Project SDK to your installed JDK (Java 17+ recommended).
 
-Build the project → Build → Build Project.
+- Build the project → Build → Build Project.
 
-Run the `Main` class (e.g., `com.example.pharmacy.Main`).
+- Run the `Main` class (e.g., `com.example.pharmacy.Main`).
 
 **3. Run from the Command Line**
 If you prefer to run without an IDE:
