@@ -11,6 +11,7 @@ cd PharmacyProject
 ```
 
 **2. Open in IntelliJ IDEA**
+
 Open IntelliJ IDEA → File → Open → select the `PharmacyProject` folder.
 
 Set the Project SDK to your installed JDK (Java 17+ recommended).
